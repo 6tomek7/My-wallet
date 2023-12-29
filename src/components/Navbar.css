@@ -1,0 +1,13 @@
+nav {
+  border-left: 1px dotted gray;
+}
+
+.nav-buttons {
+  border: none;
+  transition: background-color 0.5s ease;
+}
+
+.nav-buttons:hover {
+  cursor: pointer;
+  background-color: aliceblue;
+}
