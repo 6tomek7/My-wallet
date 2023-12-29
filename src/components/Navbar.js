@@ -5,6 +5,11 @@ const Navbar = ({ setContent }) => {
   const handleButtonClick = (componentName) => {
     setContent(componentName);
   };
+
+  const handleContentChange = (newContent) => {
+    handleButtonClick(newContent);
+  };
+
   return (
     <div className="border rounded-bottom d-flex justify-content-between align-items-center">
       <div className="d-flex align-items-center">
@@ -28,7 +33,7 @@ const Navbar = ({ setContent }) => {
           </button>
         </nav>
       </div>
-      <UserNavbarSection />
+      <UserNavbarSection setContent={handleContentChange} />
     </div>
   );
 };
