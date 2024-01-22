@@ -31,6 +31,7 @@ const Navbar = ({ setContent }) => {
           >
             Statistic
           </button>
+          <button className="nav-buttons">Accounts</button>
         </nav>
       </div>
       <UserNavbarSection setContent={handleContentChange} />
