@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar.js";
 import React, { useState } from "react";
 import Statistics from "./components/statistics/Statistics.js";
 import Login from "./components/Login.js";
-import Registration from "./components/Registration.js";
+import Registration from "./pages/Registration.js";
 
 function App() {
   const [content, setContent] = useState(null);

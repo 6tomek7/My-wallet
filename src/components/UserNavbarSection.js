@@ -1,3 +1,4 @@
+import React from "react";
 import "./UserNavbarSection.css";
 const UserNavbarSection = ({ setContent }) => {
   const handleButtonClick = (componentName) => {
