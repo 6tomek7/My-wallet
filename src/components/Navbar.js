@@ -1,3 +1,4 @@
+import React from "react";
 import IconWalletAlt from "../assets/IconWalletAlt";
 import UserNavbarSection from "./UserNavbarSection";
 import "./Navbar.css";

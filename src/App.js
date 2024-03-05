@@ -13,7 +13,6 @@ function App() {
       <div>{content === "statistics" && <Statistics />}</div>
       <div>{content === "login" && <Login />}</div>
       <div>{content === "registration" && <Registration />}</div>
-      <h3>{content}</h3>
     </div>
   );
 }
